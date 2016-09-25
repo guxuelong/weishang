@@ -1,0 +1,123 @@
+.p10{
+    padding: 10px;
+}
+.order_status {
+    padding: 10px;
+    background-color: #eee
+}
+
+.address {
+    padding: .2rem .1rem;
+    background-color: white;
+}
+.address_info {
+    width: 50%;
+    /*background-color: darkolivegreen;*/
+    float: left;
+}
+.tel {
+    width: 50%;
+    /*background-color: fuchsia;*/
+    float: left;
+    text-align: right;
+}
+.sth_addr {
+    /*background-color: darkkhaki;*/
+}
+.production {
+    margin-top: .04rem;
+    /*background-color: bisque;*/
+
+}
+.production_status {
+    padding-left: .1rem;
+    text-align: left;
+    width: 100%;
+    background-color: white;
+    height: .4rem;
+    line-height: .4rem;
+}
+/*.production_sth {*/
+    /*!*background-color: chartreuse;*!*/
+    /*!*height: 500px;*!*/
+    /*!*margin-top: -1.7rem;*!*/
+/*}*/
+/*---------------------------------------*/
+.list-block {
+    margin: 0.01rem;
+}
+.cell2_part {
+    margin-top: 0rem;
+}
+.list-block .item-after {
+    color: brown;
+    font-size: .12rem;
+}
+
+.list-block .item-subtitle {
+    color: gray;
+    font-size: .2rem;
+}
+.cell_part .col-20 {
+    text-align: right;
+}
+.content-padded {
+    margin: 0rem;
+}
+/*---------------------------------------*/
+.fee {
+    padding-left: .1rem;
+    padding-right: .1rem;
+    height: .4rem;
+    line-height: .4rem;
+    background-color: white;
+    font-size: .16rem;
+    border-top: 1px solid #e7e7e7;
+}
+.fee_title {
+    width: 50%;
+    float: left;
+}
+.fee_price {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.total {
+    margin-top: 0.01rem;
+    height: .4rem;
+    line-height: .4rem;
+    background-color: white;
+}
+.total_detail {
+    padding-left: .1rem;
+
+    width: 70%;
+    float: left;
+    font-size: .12rem;
+    text-align: left;
+    /*background-color: antiquewhite;*/
+}
+.total_detail span {
+    font-size: .14rem;
+}
+.total_price {
+    padding-right: .1rem;
+    width: 30%;
+    float: left;
+    text-align: right;
+    font-size: .14rem;
+    /*background-color: aqua;*/
+}
+
+.content-block {
+    margin: .1rem 0 0;
+    padding: 0 .15rem;
+    color: #333;
+}
+.list-block ul:before {
+    display: none
+}
+.list-block ul:after {
+    display: none
+}

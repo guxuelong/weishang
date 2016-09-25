@@ -1,0 +1,88 @@
+.list-block .comment-content{
+    padding: 10px;
+}
+
+.comment-list .comment-content .user-photo{
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    background: #333333;
+    overflow: hidden;
+}
+
+.buttons-tab{
+    width:100%;
+    height:44px;
+    line-height:44px;
+    background:#f6f6f6;
+}
+.buttons-tab .button{
+    display:block;
+    text-align:center;
+}
+.buttons-tab .button.active {
+    color: brown;
+    border-color: brown;
+}
+.bar-header-secondary {
+    top: 0rem;
+}
+.bar {
+    position: relative;
+}
+.content-block {
+    padding: 0 0 10px 0;
+}
+// .tabs {
+//     margin-top: -.1rem;
+// }
+.tabs .tab{
+    padding-bottom: 10px;
+}
+
+.content-block {
+    margin: 0px;
+    padding: 0px;
+}
+.list-block {
+    margin: 0px;
+}
+/*.item-customize-media {
+    margin-top: -.4rem;
+}
+.item-customize-media img {
+    width: .4rem;
+    height: .4rem;
+    border-radius: .2rem;
+}*/
+.list-block .item-title {
+    color: black;
+    font-size: 0.16rem;
+    font-weight: normal;
+    line-height: 50px;
+}
+.list-block .item-title span {
+    color: coral;
+}
+.list-block .item-after {
+    font-size: 0.12rem;
+    color: lightgray;
+}
+
+.list-block .item-subtitle {
+    padding-left: 0.06rem;
+    color: black;
+    font-size: 0.14rem;
+}
+.list-block .item-text {
+    padding-left: 0.06rem;
+    color: lightgray;
+    font-size: 0.14rem;
+}
+.list-block .tutu-box div{
+    width: 25%;
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 10px;
+}

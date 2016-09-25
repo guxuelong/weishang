@@ -1,0 +1,99 @@
+.buttons-tab{
+    width:100%;
+    height:44px;
+    line-height:24px;
+    background:#f6f6f6;
+  border-bottom: 1px solid #e5e5e5;
+}
+.buttons-tab .button{
+    display:block;
+    text-align:center;
+    margin: 10px 0;
+    border-right: 1px solid #999;
+}
+.buttons-tab .button.active {
+    color: brown;
+    border-color: brown;
+}
+.buttons-tab .button:last-of-type {
+  border-right: 0;
+}
+.bar-header-secondary {
+    top: 0rem;
+}
+.bar {
+    position: relative;
+}
+.content-block {
+    padding: 0 0 10px 0;
+}
+// .tabs {
+//     margin-top: -.1rem;
+// }
+.tabs .tab{
+    padding-bottom: 10px;
+}
+.list-block {
+    margin: 0rem;
+    padding-left:10px;
+}
+.list-block .item-after {
+    color: brown;
+    font-size: .12rem;
+}
+.list-block .item-title {
+    white-space: normal;
+    font-size: .15rem;
+    line-height: 1.1;
+}
+.list-block .item-content{
+    padding: 0;
+}
+.list-block .item-inner{
+    padding-right: 0
+}
+.list-block .item-subtitle {
+    color: gray;
+    font-size: .12rem;
+}
+.list-block ul:before{
+    height:0
+}
+.border-top{
+    padding-top:12px;
+    padding-bottom:10px;
+    border-top:1px solid #e7e7e7;
+}
+
+.togoods{
+    line-height: 16px;
+}
+.search-box {
+    padding: 0.1rem ;
+    position: static
+}
+.search-box .c-input {
+   width: 100%;
+}
+.list-block.media-list .item-media img{
+    width: 70px;
+    height: 70px;
+}
+
+.goods-box .bg-pic{
+    width: 70px;
+    height: 70px;
+    margin-right: 8px;
+}
+.goods-box{
+    background: #fff;
+    padding:10px
+
+}
+.btn-nb {
+  color: #333;
+  min-width: 70px;
+}
+.ui-btn-s-nbg{
+    color: #811b19;
+}

@@ -1,0 +1,136 @@
+.part1 {
+    background-color: #ff6f3e;
+    padding: 0 10px;
+}
+.part1_td1 {
+    width: 20%;
+    text-align: center;
+}
+.part1_td1 img {
+    width: 80%;
+
+    border-radius: .6rem;
+}
+.part1_td2 {
+    width: 50%;
+    color: white;
+    font-size: .16rem;
+    vertical-align: bottom;
+}
+.part1_td3 {
+    width: 20%;
+    text-align: right;
+}
+.part1_td3 img {
+    width: .24rem;
+    height: .24rem;
+}
+.part1_td4 {
+    padding-right: .1rem;
+    text-align: right;
+    width: 10%;
+}
+.part1_td4 img {
+    height: .16rem;
+}
+.part1_tr2_tab_td1 {
+    width: 40%;
+    color: white;
+    font-size: .16rem;
+}
+.part1_ss {
+    vertical-align: top;
+    padding-top: 10px;
+}
+.part1_tr2_tab_td2 {
+    vertical-align: top;
+    text-align: left;
+    width: 60%;
+}
+.part1_tr2_tab_td2 a {
+    background: rgba(255,255,255,.2);
+    border-radius: .2rem;
+    color: white;
+    font-size: .12rem;
+    padding:.04rem .08rem;
+}
+.list-block {
+    margin-top: .07rem;
+}
+.my_order_icon {
+    margin-top: 0.01rem;
+    padding: 15px;
+    position:relative
+}
+ .my_order_icon:after{
+     content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #e7e7e7;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+ }  
+ .list-block ul:before {
+   
+     height: 0
+  
+}
+.my_order_icon table {
+    background-color: white;
+    width: 100%;
+}
+.my_order_icon_tr1_td {
+    padding-bottom: .1rem;
+    /*padding-top: .5rem;*/
+    width: 20%;
+    text-align: center;
+    vertical-align: bottom;
+}
+.my_order_icon_tr1_td img {
+    width: .24rem;
+    height: .24rem;
+    margin: 0 auto 6px;
+}
+.my_order_icon_tr1_td div {
+    margin-top: -.02rem;
+    font-size: .12rem;
+    color: gray;
+    /*background-color: #cccccc;*/
+}
+.my_order_icon_tr1_td p {
+    width: 100%;
+    height: .16rem;
+    margin-bottom: -.04rem;
+    padding-left: .15rem;
+}
+.my_order_icon_tr1_td p span {
+    font-size: .06rem;
+    color: white;
+    background-color: red;
+    padding-left: 0.04rem;
+    padding-right: 0.04rem;
+    border-radius: .2rem;
+}
+// .part3_distributor,.part3_fee,.part3_addr_addmin,.part3_pwd_set {
+//     margin-top: .06rem;
+// }
+.list-block .item-after{
+    font-size: .13rem;
+    color: #999;
+    margin-right:10px;
+}
+.list-block .item-link .item-inner{
+    background-size: .14rem;
+}
+.list-block .item-inner{
+    padding:15px 10px;
+}

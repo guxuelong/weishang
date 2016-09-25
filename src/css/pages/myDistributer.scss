@@ -1,0 +1,12 @@
+.list-block {
+    margin: 0.05px;
+     font-size: .15rem;
+}
+.list-block .item-after {
+    color: lightgrey;
+     font-size: .13rem;
+   
+}
+.list-block ul:before{
+	height:0
+}

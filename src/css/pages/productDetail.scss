@@ -1,0 +1,219 @@
+/*.content {*/
+    /*font-family: Microsoft YaHei;*/
+    /*font-size: 15px;*/
+    /*background-color: grey;*/
+/*}*/
+.border-top{
+    border-top: 1px solid #eee;
+}
+.content_container {
+    z-index: 2;
+}
+
+.parameter_title {
+    padding: .1rem;
+}
+.content_pro_parameter_title_big {
+    font-size: .15rem;
+    color:#333;
+    padding-bottom: 5px;
+}
+.parameter_title .name,.pro-stock{
+    line-height: 28px;
+}
+.para-select ul {
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 10px;
+}
+.para-select ul li{
+    padding: 5px 10px;
+    border: 1px solid #dadada;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+}
+.para-select ul li a{
+    color: #333
+}
+.para-select ul li.on{
+    border: 1px solid #801c1a;
+    position: relative;
+}
+.para-select ul li.on::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #801c1a;
+    bottom: 0;
+    right: 0
+}
+.para-select ul li.on::after{
+    content: "";
+    width: 0.06rem;
+    height: 0.04rem;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(135deg);
+    position: absolute;
+    right:1px;
+    bottom: 2px;
+    -webkit-transform: rotate(135deg);
+}
+.cart_number {
+    height: 26px;
+    border: 1px solid #dbdbdb
+}
+.cart_number .increase,.cart_number .decrease{
+    width: 33px;
+    position: relative;
+    height: 100%;
+    float: left;
+    display: inline-block;
+    background: #eee
+}
+
+ .cart_number .decrease:before,.cart_number .decrease:after, .cart_number .increase:before,.cart_number .increase:after {
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: .02rem;
+    border-radius: 3px;
+    background-color: #afc1cb;
+    top: 50%;
+    left: 28%;
+}
+.cart_number .increase::after {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+ .cart_number .change_number {
+    width: 60px;
+    height: 100%;
+    float: left;
+    border-left: 1px solid #dfe0e2;
+    border-right: 1px solid #dfe0e2;
+}
+.cart_number .change_number input {
+    width: 100%;
+    text-align: center;
+    color: #1e384b;
+    font-size: .14rem;
+    border: none;
+    height: 100%;
+}
+.com-box {
+    width: 100%;
+    height: 35px;
+    clear: both;
+    overflow: hidden;
+    padding: 0 .1rem;
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+}
+.com-box .com-good {
+    position: relative;
+}
+
+.com-box .com-total .arrow {
+    display: inline-block;
+    width: 13px;
+    height: 15px;
+    position: relative;
+}
+.com-box .com-total .arrow::after {
+    transform: rotate(45deg);
+    position: absolute;
+    right: 0;
+    top: 0.07rem;
+    -webkit-transform: rotate(45deg);
+}
+.com-box span {
+    line-height: 35px;
+}
+.pros_tab {
+    width: 100%;
+    border-bottom: 1px solid #eef3f5;
+    display: inline-block;
+    height: 44px;
+    background-color: #fff;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.pros_tab ul li {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 44px;
+    position: relative;
+}
+.allcomments{
+    padding: .1rem;
+}
+.pros_tab ul li.on a {
+    display: inline-block;
+    color: #801c1a;
+}
+.comment_point_pic {
+    width: 26px;
+    vertical-align: -4px;
+    margin-right: .06rem;
+    display: inline-block;
+}
+.comment_photo{
+    width: 100%;
+    margin-top: .05rem;
+    display: inline-block;
+}
+.comment_photo a {
+    width: 30%;
+    float: left;
+    margin-right: 3%;
+}
+
+.canshu {
+padding: 10px;
+}
+.canshu dl{
+    clear: both;
+    overflow: hidden;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 0;
+}
+.canshu dl dd,.canshu dt{
+    float: left;
+}
+.canshu dt{
+    min-width: 30%;
+}
+.btn-group{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.btn-group button{
+        width: 50%;
+        display: inline-block;
+        float: left;
+        height: 50px;
+        line-height: 50px;
+        color: #fff
+}
+
+.btn-group button.buy{
+    background:  #ff5001;
+    border-right:1px solid #ccc;
+    margin-left: -1px
+}
+.btn-group button.add-chart{
+    background: #801c1a
+}
+
+.fix-height-img {
+    height: 300px;
+}

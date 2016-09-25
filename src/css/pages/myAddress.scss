@@ -1,0 +1,35 @@
+.list-block {
+    margin: .1rem;
+}
+.list-block .item-content {
+    padding-left: .7rem;
+}
+.list-block.media-list .item-media {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+.list-block.media-list .item-inner {
+    /*padding-top: 25px;*/
+    padding-bottom: .1rem;
+}
+.list-block .item-text {
+    /*margin-top: 10px;*/
+    height: 2rem;
+}
+.list-block .item-subtitle {
+    white-space: normal;
+    width: 70%;
+}
+label.label-checkbox input[type=checkbox]:checked+.item-media i.icon-form-checkbox, label.label-checkbox input[type=radio]:checked+.item-media i.icon-form-checkbox {
+    background-color: brown;
+}
+.address-lists li{
+    border-bottom:1px solid #e5e5e5;
+    padding:10px; 
+}
+.address-lists li:last-of-type{
+    border-bottom: none;
+}
+.address-info{
+line-height: 20px;
+}
